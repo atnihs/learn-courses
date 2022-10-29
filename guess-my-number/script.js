@@ -6,8 +6,8 @@ const displayMsg = function(msg) {
     document.querySelector('.message').textContent = msg;
 }
 
-const displayScore = function(Score) {
-    document.querySelector('.score').textContent = Score;
+const displayScore = function(score) {
+    document.querySelector('.score').textContent = score;
 }
 
 const displayCorrectNumber = function(number, width, bgColor) {
